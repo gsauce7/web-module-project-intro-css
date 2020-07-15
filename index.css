@@ -1,0 +1,148 @@
+/* BEGIN CSS RESET //// https://alligator.io/css/minimal-css-reset/ */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Roboto Mono', monospace;
+  } 
+
+  ol, ul {
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/* END CSS RESET //// https://alligator.io/css/minimal-css-reset/ */
+
+
+/* BODY / APPLIES TO WHOLE PAGE    */
+body {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* HEADER ELEMENTS // buttons // round image // title text   */
+header {
+   width:100%;
+   text-align:center;
+
+}
+
+button {
+    border-radius: 10%;
+    padding: 1.2rem;
+    border-style: none;
+    width: 14rem;
+    font-size: 1.6rem;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    margin-right: 9rem;
+}
+
+.buttonbox {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+button.button1 {
+    background-color: #ff764e;
+}
+
+button.button2 {
+    background-color:#5ed3eb;  
+}
+
+button.button3 {
+    background-color: #ffcd69;
+}
+
+/* container for image // title text    */
+
+.headerImgText img {
+    display: inline-block;
+    width: 20rem;
+    border-radius: 50%;
+    vertical-align: top;
+
+}
+ /* SPAN for larger text  */  
+.biggerFont {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5.5rem;
+
+
+
+}
+h1 {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight:lighter;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 5rem;
+    letter-spacing: .2rem;
+
+}
+
+/* middle section /// container with (p) text    */
+.infoBox{
+    background-color:#ddb9a3; 
+    margin-left:10% ;
+    margin-right: 10%;
+    width: 80%;
+
+
+
+}
+
+/* INFOGRAPHIC SECTION  */
+.infoBox p{
+ color:white; 
+ font-size: 1.4rem;
+ text-align:center;
+ padding: 1rem;
+ letter-spacing: .2rem;
+
+}
+
+section {
+text-align: center;
+letter-spacing: .2rem;
+font-size: 1.2rem;
+}
+
+
+section img {
+    width: 10rem;
+    padding-bottom: 1rem;
+
+}
+
+/* FOOTER w/ image and buttons  */
+
+footer img {
+    /*width: 100%;*/
+    padding-bottom: 1rem;
+    overflow: hidden;
+}
+
+.buttonboxFooter {
+    background-color: #f9e7dc; 
+    padding-bottom: 2rem;
+    text-align: center;
+
+}
+

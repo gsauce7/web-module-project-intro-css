@@ -19,9 +19,9 @@ html {
     list-style: none;
   }
 
-  img {
+  /*img {
     max-width: 100%;
-    height: auto;
+    height: auto;*/
   }
 /* END CSS RESET //// https://alligator.io/css/minimal-css-reset/ */
 
@@ -41,20 +41,21 @@ header {
 }
 
 button {
-    border-radius: 10%;
+    border-radius: 12%;
     padding: 1.2rem;
     border-style: none;
     width: 14rem;
     font-size: 1.6rem;
     color: white;
     font-family: 'Roboto Mono', monospace;
-    margin-right: 9rem;
+    margin-right: 17rem;
 }
 
 .buttonbox {
     padding-bottom: 2rem;
     padding-top: 2rem;
     text-align: center;
+    
 }
 
 button.button1 {
@@ -73,11 +74,13 @@ button.button3 {
 
 .headerImgText img {
     display: inline-block;
-    width: 20rem;
+    width: 25rem;
     border-radius: 50%;
-    vertical-align: top;
+    vertical-align: top; 
+    
 
 }
+
  /* SPAN for larger text  */  
 .biggerFont {
     font-family: 'Chelsea Market', cursive;
@@ -100,6 +103,7 @@ h1 {
 /* middle section /// container with (p) text    */
 .infoBox{
     background-color:#ddb9a3; 
+    margin-top: 2rem;
     margin-left:10% ;
     margin-right: 10%;
     width: 80%;
@@ -119,25 +123,32 @@ h1 {
 }
 
 section {
+
+color: #5c5c5c;
 text-align: center;
 letter-spacing: .2rem;
-font-size: 1.2rem;
+font-size: 1.4rem;
+font-weight: 100;
 }
 
 
 section img {
     width: 10rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 
 }
 
 /* FOOTER w/ image and buttons  */
 
-footer img {
-    /*width: 100%;*/
-    padding-bottom: 1rem;
-    overflow: hidden;
-}
+
+
+.footerImg {
+    object-fit: cover;
+    object-position: 0 15%;
+  
+    width: 100%;
+    height: 30rem;
+  }
 
 .buttonboxFooter {
     background-color: #f9e7dc; 
@@ -146,3 +157,8 @@ footer img {
 
 }
 
+span.bold {
+    
+    color: black;
+    font-weight: bolder;
+}
